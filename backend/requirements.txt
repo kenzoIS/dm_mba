@@ -1,0 +1,12 @@
+# LumiCart MBA Engine — Python Backend Requirements
+# Install with: pip install -r requirements.txt
+
+Flask>=3.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Note: mlxtend is NOT required — FP-Growth is implemented natively
+# The following are optional but recommended:
+# pyarrow>=12.0.0    (for parquet export, optional)
+# flask-cors         (CORS is handled inline — not needed)
